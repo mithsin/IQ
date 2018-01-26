@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>IQYOU</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   </head>
+   <body>
+      <div class="container" id="container">
+         <!-- Navigation menu -->
+         <div class="ui inverted segment" id="menu">
+            <div class="ui inverted secondary pointing menu fl">
+		    
+		    <a class="item" id="home" href="HomePage.html">
+		      HOME
+		    </a>
+		    <a class="item" id="screen" href="QuizPage.html">
+		      SCREEN
+		    </a>
+		    <a class="item" id="results">
+		      RESULTS
+		    </a> 	    
+            </div>
+             <div class="timer fl" id="timer"></div>
+             <div class="empty fl"></div>
+         </div>
+         <!-- Jumbotron -->
+          <section id="quizIt">
+         <div class="jumbotron" id="jumbotron">
+            <center>
+               <h1 class="display-3">IQYOU.</h1>
+            </center>
+           <br>
+            <hr class="my-4">
+            <center>
+		    <p class="lead"> <font color="blue"> ARE YOU QUALIFIED </font> </p>
+            </center>
+            <hr class="my-4">
+            <center>
+            <center>
+               <br>
+               <div >
+                  <form id="questions1" name="formName" action="url_with_programming_here" method="POST">
+                     <h2>1. What does CSS mean?</h2>
+                     <div class="left_options">
+                        <p><input type="radio" value="1" id="answer1"name="qq1"><label for="answer1">connected style shift</label></p>
+                        <p><input type="radio" value="2" id="answer2"name="qq1"><label for="answer2">cascading style sheet</label></p>
+                     </div>
+                     <div class="right_options">
+                        <p><input type="radio" value="3" id="answer3"name="qq1"><label for="answer3">coloring sign sheet</label></p>
+                        <p><input type="radio" value="4" id="answer4"name="qq1"><label for="answer4">cascading style sign </label></p>
+                     </div>
+                  </form>
+                  <hr class="my-4">
+                  <div >
+                     <form id="questions2" name="formName" action="url_with_programming_here" method="POST">
+                        <h2>2. Which of the following is NOT a valid CSS unit?</h2>
+                        <div class="left_options">
+                           <p><input type="radio" value="1" id="answer1"name="qq2"><label for="answer1">ch</label></p>
+                           <p><input type="radio" value="2" id="answer2"name="qq2"><label for="answer2">hz</label></p>
+                        </div>
+                        <div class="right_options">
+                           <p><input type="radio" value="3" id="answer3"name="qq2"><label for="answer3">ems</label></p>
+                           <p><input type="radio" value="4" id="answer4"name="qq2"><label for="answer4">px</label></p>
+                        </div>
+                     </form>
+                  </div>
+                  <br>
+                  <div >
+                     <form id="questions3" name="formName" action="url_with_programming_here" method="POST">
+                        <h2>3. Which of the following is NOT a valid border-style property value?</h2>
+                        <div class="left_options">
+                           <p><input type="radio" value="1" id="answer1"name="qq3"><label for="answer1">dotted</label></p>
+                           <p><input type="radio" value="2" id="answer2"name="qq3"><label for="answer2">inset</label></p>
+                        </div>
+                        <div class="right_options">
+                           <p><input type="radio" value="3" id="answer3"name="qq3"><label for="answer3">glaze</label></p>
+                           <p><input type="radio" value="4" id="answer4"name="qq3"><label for="answer4">grove</label></p>
+                        </div>
+                     </form>
+                  </div>
+                  <br>
+                  <div >
+                     <form id="questions4" name="formName" action="url_with_programming_here" method="POST">
+                        <h2>4. Which of the following is NOT a valid CSS length unit?</h2>
+                        <div class="left_options">
+                           <p><input type="radio" value="1" id="answer1"name="qq4"><label for="answer1">cm</label></p>
+                           <p><input type="radio" value="2" id="answer2"name="qq4"><label for="answer2">dm</label></p>
+                        </div>
+                        <div class="right_options">
+                           <p><input type="radio" value="3" id="answer3"name="qq4"><label for="answer3">em</label></p>
+                           <p><input type="radio" value="4" id="answer4"name="qq4"><label for="answer4">hz</label></p>
+                        </div>
+                     </form>
+                  </div>
+                  <div >
+                     <form id="questions5" name="formName" action="url_with_programming_here" method="POST">
+                        <h2>5. Which of the following function of Array object extracts a section of an array and returns a new array?</h2>
+                        <div class="left_options">
+                           <p><input type="radio" value="1" id="answer1"name="qq5"><label for="answer1">toSource()</label></p>
+                           <p><input type="radio" value="2" id="answer2"name="qq5"><label for="answer2">sort()</label></p>
+                        </div>
+                        <div class="right_options">
+                           <p><input type="radio" value="3" id="answer3"name="qq5"><label for="answer3">splice()</label></p>
+                           <p><input type="radio" value="4" id="answer4"name="qq5"><label for="answer4">unshift()</label></p>
+                        </div>
+                     </form>
+                  </div>
+                  <div >
+                     <form id="questions6" name="formName" action="url_with_programming_here" method="POST">
+                        <h2>6. Which of these is not a logical operator?</h2>
+                        <div class="left_options">
+                           <p><input type="radio" value="1" id="answer1"name="qq6"><label for="answer1"> !</label></p>
+                           <p><input type="radio" value="2" id="answer2"name="qq6"><label for="answer2"> &</label></p>
+                        </div>
+                        <div class="right_options">
+                           <p><input type="radio" value="3" id="answer3"name="qq6"><label for="answer3"> &&</label></p>
+                           <p><input type="radio" value="4" id="answer4"name="qq6"><label for="answer4"> ||</label></p>
+                        </div>
+                     </form>
+                  </div>
+                  <div >
+                     <form id="questions7" name="formName" action="url_with_programming_here" method="POST">
+                        <h2>7. Which of these will throw a SyntaxError?</h2>
+                        <div class="left_options">
+                           <p><input type="radio" value="1" id="answer1"name="qq7"><label for="answer1">if (x==1){}</label></p>
+                           <p><input type="radio" value="2" id="answer2"name="qq7"><label for="answer2">if (x=1){}</label></p>
+                        </div>
+                        <div class="right_options">
+                           <p><input type="radio" value="3" id="answer3"name="qq7"><label for="answer3">if (x====1){}</label></p>
+                           <p><input type="radio" value="4" id="answer4"name="qq7"><label for="answer4">if (x===1){}</label></p>
+                        </div>
+                     </form>
+                  </div>
+                  <div >
+                     <form id="questions8" name="formName" action="url_with_programming_here" method="POST">
+                        <h2>8. Node.js runs on what?</h2>
+                        <div class="left_options">
+                           <p><input type="radio" value="1" id="answer1"name="qq8"><label for="answer1">Client</label></p>
+                           <p><input type="radio" value="2" id="answer2"name="qq8"><label for="answer2">Server</label></p>
+                        </div>
+                        <div class="right_options">
+                           <p><input type="radio" value="3" id="answer3"name="qq8"><label for="answer3">Server and Client</label></p>
+                           <p><input type="radio" value="4" id="answer4"name="qq8"><label for="answer4">None of the above</label></p>
+                        </div>
+                     </form>
+                  </div>
+                  <div >
+                     <form id="questions9" name="formName" action="url_with_programming_here" method="POST">
+                        <h2>9. Which best describes Node.js?</h2>
+                        <div class="mid_options">
+                           <p><input type="radio" value="1" id="answer1"name="qq9"><label for="answer1">Asynchronous</label></p>
+                           <p><input type="radio" value="2" id="answer2"name="qq9"><label for="answer2">Synchronous</label></p>
+                        </div>
+                     </form>
+                  </div>
+                  <div >
+                     <form id="questions10" name="formName" action="url_with_programming_here" method="POST">
+                        <h2>10. In software development, what is a single development cycle called?</h2>
+                        <div class="left_options">
+                           <p><input type="radio" value="1" id="answer1" name="qq10"><label for="answer1">Segment</label></p>
+                           <p><input type="radio" value="2" id="answer2" name="qq10"><label for="answer2">Stage</label></p>
+                        </div>
+                        <div class="right_options">
+                           <p><input type="radio" value="3" id="answer3" name="qq10"><label for="answer3">Interation</label></p>
+                           <p><input type="radio" value="4" id="answer4" name="qq10"><label for="answer4">Phase</label></p>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </center>
+            <hr class="my-4">
+            <center>
+               <a class="btn btn-primary btn-lg submit" href="ResultsPage.html" id="enterbuttona" role="button">SEE RESULTS</a>
+            </center>
+           </center>
+         </div>
+          </section>
+      
+       <!-- Hide until Submit -->
+       <section id="result">
+       	<div class="jumbotron" id="jumbotron">
+	  <center><h1 class="display-3">IQYOU. </h1>
+	  </center>
+	  	<hr class="my-4">
+	  <center><p class="results1">  </p></center>
+	  <hr class="my-4">
+
+	  <center><p class="results2"></p></center>
+	  <hr class="my-4">
+
+	  <center><p class="results3"></p></center>
+	  <hr class="my-4">
+
+	  <center><p class="results4"></p></center>
+	  <hr class="my-4">
+	  <br>
+
+<center>
+	  	<a class="btn btn-primary btn-lg" href="HomePage.html" id="enterbuttonb" role="button">TRY AGAIN</a>
+	  </center>
+    </div>
+        </section>
+       <!-- Hide until submit end -->
+       </div>
+<!--      <div id="print_here"></div>-->
+      <script src="js/quizPage.js" type="text/javascript"></script>
+   </body>
+</html>

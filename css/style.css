@@ -1,0 +1,86 @@
+body{
+min-width:600px;    
+}
+
+.display-3 {
+  
+  margin-top: 3px;
+  line-height: 0.5; 
+}
+
+
+.list-group-item > button.delete,
+.list-group-item > button.complete {
+  float: right;
+  height: 25px;
+  margin-top: 3px;
+  line-height: 0.5;
+}
+
+
+#user-form {
+  height: 25px;
+  margin-top: 3px;
+  line-height: 0.5; 
+}
+
+
+.list-group {
+height: 100px;
+width: 50%;
+position: centered;
+
+}
+
+#menu{
+  width:100%;
+  height:50px;
+}
+
+.timer {
+  font-size: 3em;
+  width: 30%;
+  border: 1px dotted white;
+  height: 35px;
+  margin: auto;
+  text-align: center;
+}
+
+.menu{
+  width: 35%;
+}
+
+.empty{
+  width: 35%;
+}
+
+.fl {
+float:left;
+}
+
+.left_options {
+    width:50%;
+    float:left;
+}
+
+.right_options {
+    width:50%;
+    float:left
+}
+.mid_options {
+    margin:auto;
+}
+
+form {
+    width:75%;
+    display:inline-block;
+}
+
+/*#result {
+    width: 74%;
+    margin:auto;
+}*/
+
+.results2,.results4 {
+color:#1e70bf;
+}
